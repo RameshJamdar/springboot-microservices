@@ -40,7 +40,7 @@ public class ContactMasterServiceImpl implements ContactMasterService {
 	}
 
 	@Override
-	public void deleteStudentById(int id) {
+	public void deleteContactById(int id) {
 		contactMasterRepo.deleteById(id);
 	}
 

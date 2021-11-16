@@ -24,5 +24,5 @@ ContactMasterEntity getContactById(int id);
 	
 ContactMasterEntity updateContact(ContactMasterEntity contact);
 	
-	void deleteStudentById(int id);
+	void deleteContactById(int id);
 }

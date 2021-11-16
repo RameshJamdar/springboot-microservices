@@ -52,7 +52,7 @@ public class ContactMasterController {
 	
 	@DeleteMapping("/{id}")
 	public void deleteStudentById(@PathVariable int id) {
-		contactMasterService.deleteStudentById(id);
+		contactMasterService.deleteContactById(id);
 	}
 
 }
