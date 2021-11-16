@@ -4,14 +4,17 @@ import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 
 import com.example.datajpa.entity.ContactMasterEntity;
 import com.example.datajpa.repository.ContactMasterRepo;
 
-@Component
+
+
+@Service
 public class ContactMasterServiceImpl implements ContactMasterService {
 
-	@Autowired
+	@Autowired(required = true)
 	private ContactMasterRepo contactMasterRepo;
 
 	@Override

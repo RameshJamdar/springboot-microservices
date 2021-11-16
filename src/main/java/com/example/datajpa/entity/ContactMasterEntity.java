@@ -22,6 +22,20 @@ public class ContactMasterEntity {
 	
 	@Column(name="CONTACT_NUMBER")
 	private Long contactNumber;
+
+	public ContactMasterEntity(Integer contactId, String contactName, Long contactNumber) {
+		super();
+		this.contactId = contactId;
+		this.contactName = contactName;
+		this.contactNumber = contactNumber;
+	}
+
+	public ContactMasterEntity() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	
+	
 	
 
 }
